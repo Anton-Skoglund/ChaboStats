@@ -1,0 +1,79 @@
+{
+  "cha_stu_bo": {
+    "building_codes": [
+      {
+        "code": "chabo",
+        "name": "chabo"
+      },
+      {
+        "code": "gibguest",
+        "name": "gibraltar guesthouse"
+      },
+      {
+        "code": "gasthuset",
+        "name": "gästhuset"
+      },
+      {
+        "code": "rannan",
+        "name": "rännan"
+      },
+      {
+        "code": "skateberget",
+        "name": "skateberget"
+      },
+      {
+        "code": "sangsvanen",
+        "name": "sångsvanen"
+      },
+      {
+        "code": "kappelgangen",
+        "name": "kapellgången"
+      },
+      {
+        "code": "gib78",
+        "name": "gibraltargatan 78"
+      },
+      {
+        "code": "gib80",
+        "name": "gibraltargatan 80"
+      },
+      {
+        "code": "gib82B_94",
+        "name": "gibraltargatan 82 B & 94",
+        "alias": [
+          "emilsborg 82/94"
+        ]
+      },
+      {
+        "code": "gib84_92",
+        "name": "gibraltargatan 84-92",
+        "alias": [
+          "emilsborg"
+        ]
+      },
+      {
+        "code": "uddjuar",
+        "name": "uddjuar"
+      },
+      {
+        "code": "emilsbro",
+        "name": "emilsbro"
+      },
+      {
+        "code": "forselius",
+        "name": "dr forselius backe",
+        "alias": [
+          "guldheden"
+        ]
+      },
+      {
+        "code": "wigardhs",
+        "name": "dr wigardhs gata"
+      },
+      {
+        "code": "holterman",
+        "name": "holterman studenthostel"
+      }
+    ]
+  }
+}

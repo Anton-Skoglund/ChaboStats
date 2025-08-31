@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+@theme {
+    --color-pri: var(--pri);
+    --color-privari: var(--privari);
+    --color-sec: var(--sec);
+    --color-secvari: var(--secvari);
+
+    --color-bg: var(--bg);
+    --color-card: var(--card);
+    --color-err: var(--err);
+
+    --color-onpri: var(--onpri);
+    --color-onsec: var(--onsec);
+    --color-onbg: var(--onbg);
+    --color-oncard: var(--oncard);
+    --color-onerr: var(--onerr);
+}
+
+
+/* https://m2.material.io/design/color/the-color-system.html#color-theme-creation */
+/* Base palette (default light mode) */
+:root {
+    --pri: #3057E1;
+    --privari: #4A6FF5;
+
+    --sec: #FF8C42;
+    --secvari: #FF9F5C;
+
+    --bg: #FFFFFF;
+    --card: #FAFAFA;
+
+    --err: #E53935;
+    
+    --onpri: #FFFFFF;
+    --onsec: #FFFFFF;
+    --onbg: #1C1F23;
+    --oncard: #1C1F23;
+    --onerr: #FFFFFF;
+    
+
+    --font-title: "Coming Soon", "cursive", "Arial", "Helvetica", "sans-serif";
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-title);
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Light mode (explicit class) */
+.light {
+    --pri: #3057E1;
+    --privari: #4A6FF5;
+
+    --sec: #FF8C42;
+    --secvari: #FF9F5C;
+
+    --bg: #ececec;
+    --card: #FAFAFA;
+
+    --err: #E53935;
+
+    --onpri: #FFFFFF;
+    --onsec: #FFFFFF;
+    --onbg: #1C1F23;
+    --oncard: #1C1F23;
+    --onerr: #FFFFFF;
+}
+
+
+/* Dark mode */
+.dark {
+    --pri: #3057E1;
+    --privari: #4A6FF5;
+
+    --sec: #FF8C42;
+    --secvari: #FFA065;
+
+    --bg: #0f172a;
+    --card: #1f2937;
+
+    --err: #ef4444;
+
+    --onpri: #FFFFFF;
+    --onsec: #FFFFFF;
+    --onbg: #E5E7EB;
+    --oncard: #E5E7EB;
+    --onerr: #FFFFFF;
+}
+
+/* Blueprint / full blue mode - dark bg with punchy secondary */
+.blue {
+    --bg: #0D3B91;
+    --card: #1648B4;
+
+    --pri: #F1F5F9;
+    --privari: #E0E7FF;
+
+    --sec: #00B0FF;
+    --secvari: #66D0FF;
+
+    --err: #FF6B6B;
+
+    --onpri: #0D3B91;
+    --onsec: #FFFFFF;
+    --onbg: #E3E8F1;
+    --oncard: #FFFFFF;
+    --onerr: #FFFFFF;
+}
+
+
+.fac-icon path {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 40;
+    stroke-linecap: round;
+}
