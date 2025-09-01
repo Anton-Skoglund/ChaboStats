@@ -60,7 +60,7 @@ self.addEventListener("fetch", (event) => {
 
         // /api/listings/:published/:objectId → find by published + objectId
         if (parts.length === 5) {
-          const [, , published, objectId] = parts;
+          const [, , , published, objectId] = parts;
           const listing = listings.find(
             (item) => item.published === published && item.objectId === objectId
           );
